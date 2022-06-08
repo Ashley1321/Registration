@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- <meta name="viewpoint" content="Registration-Form">
+        <meta charset="UTF-8">
+        <title>My Registration Form</title> -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="index.js" defer></script>
+        <title>Registration-Form</title>
+    </head>
+    <body>
+        <div class="page-Container">
+            <div class="form-container">
+                <form action="" id="registrationForm">
+                    <h1>Registration Form</h1>
+                    <label for="image">
+                      <img src="user.png" id="img">  
+                    </label>
+                    <input type="file" class="hidden" id="image" onchange="handleImage(event);">
+                    <input id="email" type="email" placeholder="Enter email..."><br>
+                    <span id="emailError" class="hidden">Enter a valid email</span>
+                    <input id="password" type="password" placeholder="enter password..."><br>
+                    <input id="valPassword" type="password" placeholder="Confirm Password..."><br>
+                    <span id="confirmPass" class="hidden">Password Error</span>
+                    <button class="button" id="register" type="submit"  >Register</button>
+
+                </form>
+
+            </div>
+        </div>
+        
+    </body>
+</html>

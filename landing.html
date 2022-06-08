@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<htlm>
+    <head>
+        <title>Landing page</title>
+        <link rel="stylesheet" href="style.css">
+       
+    </head>
+    <body id="background-picture">
+        <table border="0" id="first-taable">
+            <tr>
+                <td>
+                    <h1 id="kindle"> Kindle.</h1> 
+
+                </td>
+                <td>
+                    <img src="amazon-logo-preview.png" alt="Format not supported" id="right-logo" width="250px" height="200px" align="right">
+
+                </td>
+            </tr>
+        </table>
+            <div id="container">
+                    <table>
+                        <table border="0" id="link-table">
+                            <tr>
+                                <td><h4 id="h4">Kindle</h4></td>
+                                <td><input type="search" id="search" placeholder="Search your book"></td>
+                                <td><a href="#" id="new">New Release</a></td>
+                                <td><a href="#" id="featured">Featured</a></td>
+                                
+                            </tr>
+                            <tr>
+                                <td><h5 id="h5">books you read last</h5></td>
+                                
+                            </tr>
+                        </table>
+                        
+                        
+                        <table border="0"id="first-table">
+                            <tr>
+                                <td><div id="first-pic"><img src="Harry Potter Sor. Stone cover.jpg" id="harry-potter">
+                                    <table border="0" class="harry-table"><tr><td><h5 class="table-text">Harry Potter And The <br> Sorcerrers Stone</h5></td></tr><tr><td><h6 class="small-text">193 pages . Chapter 13 . Last Read</h6></td></tr></table>
+                                </div></td>
+
+                                <td><div id="second-pic"><img src="water dancer.jpg" id="water-dancer">
+                                <table border="0" class="harry-table"><tr><td><h5 class="table-text">TA Nehisi Goates The <br> Water Dancer</h5></td></tr><tr><td><h6 class="small-text">New Purchase . Yet to Read</h6></td></tr></table>
+                            </div></td>
+
+                                <td><div id="third-pic"><img src="Game-of-Thrones-book-cover.jpg" id="game-of-thrones">
+                                    
+                                </div></td>
+                            </tr>
+            
+                        </table>    
+                                
+                        <table border="0">      
+                            <tr>
+                                     <h4 id="h4">New release</h4>
+                                </tr>   
+                            <tr>
+                                <td><img src="the_glass_hotel.jpg" id="glass-hotel"></td>
+                                <td><img src="the-book-of-longings.jpg" id="longing"></td>
+                                <td><img src="darling-rose-gold-book-cover.jpg" id="rose-gold"></td>
+                                <td><img src="my dark vanessa.jpeg" id="dark-vanessa"></td>
+                                <td><img src="weather.jpg" id="weather"></td>  
+                            </tr>
+                            <tr>
+                                <td><h4 class="left">The Glass Hotel <br></h4><p id="hotel-id">Emily S T Jones</p> <p id="misery">Misery</p></td>
+                                <td><h4 class="left">The Book of Longings <br></h4><p id="longing-id">Sue Monk</p> <p id="sue-monk">Fiction</p></td>
+                                <td><h4 class="left">Darling Rose Gold <br></h4><p id="darling-id">Stephanie Wrobel</p> <p id="steph">Thriller</p></td>
+                                <td><h4 class="left">My Dark Vanessa <br></h4><p id="dark-id">My Dark Vanessa</p> <p id="dark">Misery</p></td>
+                                <td><h4 class="left">Weather <br></h4> <p id="waether-id">Jenny Offill</p> <p id="jenny">Misery</p></td>
+                            </tr>
+                        </table>
+                        <div class="bottom-right">
+                          
+                            <div class="text-block">
+                                <table border="0" id="table">
+                                    <tr>
+                                       <td colspan="3"><h3 id="heading">Famous Authors</h3></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2"><img src="Rowling.jpg" alt="j k Rowling" width="60px" id="rowling"></td>   
+                                         <td><h5 id="name">J.k.Rowling<br>10 books</h5></td>
+                                    </tr>
+                                    <tr>
+                                    <td colspan="2"><img src="king.jpg" alt="Stephen king" width="60px" id="king"></td>
+                                    <td><h5 id="stephen-text">Stephen King<br>61 Novels</h5></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2"><img src="danielle-steel-header-1_1-min.jpg" alt="Danielle Steel" width="60px" height="65px" id="steel"></td>
+                                        <td><h5 id="steel-text">Danielle Steel<br>179 Books</h5></td>
+                                    </tr>
+                                </table>  
+                            </div>
+                            
+                        </div>  
+                        <div id="bottom-logo"><b>Product of </b><br><img src="amazon-logo-preview.png" id="bottom" alt="bottom logo"></div>
+                        <div id="top-text-block">
+                            <table border="0">
+                                <tr><td><img src="Adaora-Akubilo.jpg" alt="Adaora" width="60px" height="65px" style="border-radius: 20px;"></td></tr>
+                                <tr><td><h5>Welcome <br>Back</h5></td></tr>
+                            <tr>
+                                 <td>
+                                    <h4><span id="username"></span></h4>
+                                    <script>
+                                        document.getElementById('username').innerHTML = localStorage.getItem('name');
+                                    </script>
+                                 </td>
+                            </tr>
+                            </table>
+                          
+                            <div id="kindle-board">
+                                <table border="0">
+                                    <tr>
+                                        <td><img src="collection.jpg" alt="format not supported" class="resize"></td>
+                                        <td><h6 class="texts">collection</h6></td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="saved.jpg" alt="format not supported" class="resize"></td>
+                                        <td><h6 class="texts">Saved</h6></td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="profile.png" alt="format not supported" class="resize"></td>
+                                        <td><h6 class="texts"><h6>Profile</h6></td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="logout.png" alt="format not supported" class="resize"></td>
+                                        <td><h6 class="texts"><h6>Logout</h6></td>
+                                    </tr>
+                                </table>
+                            </div>
+            
+                        </div>
+                        
+                    </div>
+    <script>
+        
+    </script>
+</body>
+</htlm>
